@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RAN Online EU EP7</title>
+    <meta name="description" content="RAN Online EU EP7 — Download, News, Gallery, Videos" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<audio id="bg-music" autoplay loop>
+    <source src="assets/audio/1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+
+<header class="site-header">
+    <div class="container nav-container">
+        <a class="logo" href="#home">
+            <img src="assets/img/logo.svg" alt="RAN Online EU EP7 logo" />
+            <span>RAN Online EU EP7</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <nav class="site-nav" role="navigation">
+            <ul>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<section id="home" class="hero" aria-label="Hero">
+    <div class="hero-bg" role="img" aria-label="RAN Online EP7 poster background"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-content container">
+        <h1>RAN Online EU EP7</h1>
+        <p>Episode 7: Rise of the Campus Warriors</p>
+        <div class="hero-actions">
+            <a class="btn btn-primary" href="#download">Download</a>
+            <a class="btn btn-secondary" href="#news">Latest news</a>
+        </div>
+    </div>
+</section>
+
+
+<section id="download" class="download-section container">
+    <h2>Download</h2>
+    <p>Get the latest client and patches. Choose your preferred mirror.</p>
+    <div class="download-grid">
+        <a class="download-card" href="https://drive.google.com/file/d/1jVTSKEVbT1GPjhr7IHxGod-Ep7PiuhiC/view?usp=sharing" target="_blank" rel="noopener">
+            <span class="download-title">Mirror1</span>
+            <span class="download-desc">Google Drive</span>
+        </a>
+        <a class="download-card" href="https://www.ranonlinegs.com/downloads" target="_blank" rel="noopener">
+            <span class="download-title">Patch / Update</span>
+            <span class="download-desc">Manual Patch v1</span>
+        </a>
+        <a class="download-card" href="https://mega.nz/file/7oxXRSBZ#s5BB4fVNK4s5sUNPOAhN74RXxZxawPhhZHyhgWupLm4" target="_blank" rel="noopener">
+            <span class="download-title">MEGA</span>
+            <span class="download-desc">Mirror2</span>
+        </a>
+        <a class="download-card" href="https://www.mediafire.com/file/e8yzgey5f0f17q2/Ran-EU.exe/file" target="_blank" rel="noopener">
+            <span class="download-title">MediaFire</span>
+            <span class="download-desc">mirror3</span>
+        </a>
+    </div>
+</section>
+
+
+
+<section id="news" class="news-section container">
+    <h2>News</h2>
+    <div class="news-list">
+        <article class="news-item">
+            <time datetime="2025-11-18" class="news-date">Nov 18, 2025</time>
+            <h3 class="news-title">Maintenance completed</h3>
+            <p class="news-summary">Server maintenance completed successfully. Patch notes include balance tweaks and bug fixes.</p>
+        </article>
+        <article class="news-item">
+            <time datetime="2025-18-05" class="news-date">Nov 18, 2025</time>
+            <h3 class="news-title">New PvP event</h3>
+            <p class="news-summary">Join the weekend PvP tournament. Rewards include exclusive cosmetics and EP.</p>
+        </article>
+    </div>
+    <button class="btn btn-outline" id="loadMoreNews" type="button" aria-controls="newsList">Load more</button>
+</section>
+
+<section id="gallery" class="gallery-section container">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+        <a href="assets/img/backround.png" class="gallery-item" data-lightbox="gallery" aria-label="Open poster">
+            <img src="assets/img/backround.png" alt="RAN Online EU EP7 Poster" loading="lazy" />
+        </a>
+        <a href="assets/img/gallery/1.png" class="gallery-item" data-lightbox="gallery" aria-label="Open image 1">
+            <img src="assets/img/gallery/1.png" alt="Campus battle scene 1" loading="lazy" />
+        </a>
+        <a href="assets/img/gallery/1.png" class="gallery-item" data-lightbox="gallery" aria-label="Open image 2">
+            <img src="assets/img/gallery/1.png" alt="Campus battle scene 2" loading="lazy" />
+        </a>
+        <a href="assets/img/gallery/1.png" class="gallery-item" data-lightbox="gallery" aria-label="Open image 3">
+            <img src="assets/img/gallery/1.png" alt="Character lineup" loading="lazy" />
+        </a>
+    </div>
+</section>
+
+<section id="videos" class="video-section container">
+    <h2>Videos</h2>
+    <div class="video-grid">
+        <div class="video-card">
+            <div class="video-wrapper">
+                <iframe
+                        title="RAN Online Trailer"
+                        src="assets/videos/raneu.mp4"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                ></iframe>
+            </div>
+            <h3 class="video-title">Official Trailer</h3>
+        </div>
+        <div class="video-card">
+            <video class="local-video" controls preload="none" poster="assets/img/showcase.png">
+                <source src="assets/videos/raneu.mp4" type="video/mp4" />
+                Your browser does not support HTML5 video.
+            </video>
+            <h3 class="video-title">EP7 Showcase</h3>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="server-info" class="server-info container">
+    <h2>Server Information</h2>
+    <p>RAN Online EU EP7 — Balanced 6 Classes</p>
+    <div class="class-grid">
+        <div class="class-card">🗡️ Swordsman</div>
+        <div class="class-card">👊 Brawler</div>
+        <div class="class-card">🏹 Archer</div>
+        <div class="class-card">🔮 Shaman</div>
+        <div class="class-card">⚡ Extreme</div>
+        <div class="class-card">🔫 Gunner</div>
+    </div>
+</section>
+
+
+<section id="server-info-features" class="server-info-features container">
+    <h2>Server Information & Features</h2>
+
+    <div class="info-split">
+        <!-- Left side: Server INFO -->
+        <div class="info-left">
+            <h3>Server INFO</h3>
+            <ul class="server-Features">
+                <li><strong>Max Level:</strong> <span>230</span></li>
+                <li><strong>Max Skill:</strong> <span>207</span></li>
+                <li><strong>Upgrade Max:</strong> <span>10</span></li>
+                <li><strong>Anti Cheat:</strong> <span>ON</span></li>
+                <li><strong>Max Weapon RV:</strong> <span>UP to 15%</span></li>
+                <li><strong>Max Armor RV:</strong> <span>UP to 15%</span></li>
+                <li><strong>Bos Drop:</strong> <span>Mid</span></li>
+            </ul>
+        </div>
+
+        <!-- Right side: Server Features -->
+        <div class="info-right">
+            <h3>Server Features</h3>
+            <ul class="server-Features">
+                <li><strong>Ingame Register:</strong> <span>ON</span></li>
+                <li><strong>Ingame Shop:</strong> <span>ON</span></li>
+                <li><strong>Ingame Daily Rewards:</strong> <span>ON</span></li>
+                <li><strong>Ingame Offline Vend:</strong> <span>ON</span></li>
+                <li><strong>Ingame Battle pass:</strong> <span>ON</span></li>
+                <li><strong>Ingame Pandora Box:</strong> <span>ON</span></li>
+                <li><strong>Ingame Gatcha:</strong> <span>ON</span></li>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section id="credits" class="credits">
+    <div class="credits-viewport">
+        <div class="credits-container">
+            <h2 class="credits-title">⚡Credits ⚡</h2>
+            <p class="credits-text">Design by <span class="highlight">Rhandzkate</span></p>
+            <p class="credits-text">RAN Online EU EP7 Webpage</p>
+            <p class="credits-text">Theme & UI by Rhandzkate</p>
+            <p class="credits-text">Community Support</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<footer id="footer" class="site-footer">
+    <div class="container footer-container">
+
+        <!-- Brand / About -->
+        <div class="footer-brand">
+            <img src="assets/img/powered%20by%20gyrosec.png" alt="RAN Online EU EP7 logo" />
+            <p>RAN Online EU EP7 — Fan community site. All trademarks belong to their respective owners.</p>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#videos">Videos</a></li>
+            </ul>
+        </div>
+
+        <!-- Community / Social -->
+        <div class="footer-social">
+            <h4>Community</h4>
+            <ul>
+                <li><a href="#">💬 Discord</a></li>
+                <li><a href="https://www.facebook.com/RanonlineEU" target="_blank">📘 Facebook</a></li>
+                <li><a href="#">▶ YouTube</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-contact">
+            <h4>Contact</h4>
+            <p>Email: <a href="mailto:support@ranonlineeu.com">support@ranonlineeu.com</a></p>
+            <p>Location: EUROPE Server</p>
+        </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+        <p>© 2025 RAN Online EU EP7 — Powered by Gyrosec</p>
+    </div>
+</footer>
+
+
+
+
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image preview">
+    <button class="lightbox-close" aria-label="Close preview">&times;</button>
+    <img class="lightbox-img" src="" alt="Preview" />
+</div>
+<script src="assets/js/main.js"></script>
+
+
+<!-- Normal Chat Box -->
+<div id="chat-box">
+    <div id="chat-header">
+        💬 Chat Box
+        <button id="chat-toggle">−</button>
+        <button id="chat-clear">🗑</button>
+    </div>
+    <div id="chat-messages"></div>
+    <div class="chat-input-area">
+        <input id="chat-input" type="text" placeholder="Type a message..." />
+        <button id="chat-send">Send</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
