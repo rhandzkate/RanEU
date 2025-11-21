@@ -191,3 +191,34 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+document.addEventListener("DOMContentLoaded", () => {
+    const popup = document.getElementById("top-popup");
+    const closeBtn = document.getElementById("popup-close");
+
+    // Show popup after 3 seconds
+    setTimeout(() => {
+        popup.classList.add("show");
+    }, 3000);
+
+    // Close popup
+    closeBtn.addEventListener("click", () => {
+        popup.classList.remove("show");
+    });
+});
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const popup = document.getElementById("top-popup");
+    const closeBtn = document.getElementById("popup-close");
+
+    // Show popup after 3 seconds
+    setTimeout(() => {
+        popup.classList.add("show");
+    }, 3000);
+
+    // Close popup
+    closeBtn.addEventListener("click", () => {
+        popup.classList.remove("show");
+    });
+});
